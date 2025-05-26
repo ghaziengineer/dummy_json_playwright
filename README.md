@@ -5,9 +5,14 @@ This project is a complete example of how to automate API testing using [Playwri
 ## 📁 Project Structure
 ```
 playwright-api-tests/
-├── tests/api/        # API test files
-├── helpers/          # Auth / token helpers
-├── utils/            # Sample test data
+├── core/              # Generic API client creation
+├── pages/             # API layer (POM)
+│   ├── authAPI.ts     # Login, token
+│   ├── productAPI.ts  # CRUD products
+│   ├── cartAPI.ts     # Add/update cart
+│   └── userAPI.ts     # User actions
+├── tests/api/         # Actual test cases
+├── utils/             # Sample test data
 ├── playwright.config.ts
 └── README.md
 ```
