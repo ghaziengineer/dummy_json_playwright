@@ -1,0 +1,21 @@
+{
+  "name": "dummy_json_playwright",
+  "version": "1.0.0",
+  "description": "This project is a complete example of how to automate API testing using [Playwright](https://playwright.dev) against the public [DummyJSON](https://dummyjson.com) API.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
